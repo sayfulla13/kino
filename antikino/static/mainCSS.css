@@ -1,9 +1,12 @@
 
 .btn{
     width: 10em;
-    margin-left: 35%;
+    margin-left: 30%;
     margin-right: 50%;
-    border-radius: 30px;
+    border-radius: 50px;
+}
+.image1{
+ border-radius:30px;
 }
 
 @media only screen and (max-width: 768px){
@@ -12,15 +15,21 @@
     width: 75%;
     margin-left: 12%;
 }
+.img1{
+    transform: translate(0,11em);
+    z-index:3;
+
+}
 .img2{
-    transform: translate(7em,-35em);
+    transform: translate(0,-31em);
 }
 
 .img3{
-    transform: translate(9em,-250px);
+    transform: translate(3em,-170px);
+    z-index:2;
 }
 .img4{
-    transform: translate(0,-20em);
+    transform: translate(0,-13em);
 }
 .rooms{
     transform: translate(0,-10em);
