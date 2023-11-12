@@ -1,0 +1,39 @@
+
+.btn{
+    width: 10em;
+    margin-left: 35%;
+    margin-right: 50%;
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 768px){
+.info{
+    border-radius: 30px;
+    width: 75%;
+    margin-left: 12%;
+}
+.img2{
+    transform: translate(7em,-35em);
+}
+
+.img3{
+    transform: translate(9em,-250px);
+}
+.img4{
+    transform: translate(0,-20em);
+}
+.rooms{
+    transform: translate(0,-10em);
+}
+.roomImg{
+    margin-left: 15%;
+    margin-top: 1em;
+    width: 70%;
+    height:15em;
+
+
+}
+.textImg{
+    margin-left: 15%;
+}
+}

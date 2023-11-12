@@ -1,0 +1,193 @@
+<!doctype html>{% load static %}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="shortcut icon" href="{% static 'images/Icon.webp' %}" type="image/x-icon">
+
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'mainCSS.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KinoroomKZ</title>
+</head>
+<body class="bg-black" id="body">
+<header class="py-3 mb-4">
+    <div class="container d-flex flex-wrap justify-content-center">
+      <a href="#" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use>
+                       <img src="{% static 'images/Icon.webp' %}" alt="">
+        </svg>
+        <small><span class="fs-4 text-light">лучший киносервис Алматы</span></small>
+      </a>
+    </div>
+    <a href="#rooms"><button type="button" class="btn btn-warning" style="margin-bottom: 1em">Выбрать зал</button></a>
+    <a target="_blank" href="https://t.me/KR_supportKZ"><button type="button" class="btn btn-info">связаться с нами</button></a>
+  </header>
+
+    <div class="bg-black">
+        <div class="row">
+            <div class="col-sm text-center" style="margin-bottom:90px">
+                <h1 class="text-light">О нас</h1><br>
+                <h3 class="text-light fw-normal">
+                        <small class="text-warning">KinoroomKZ</small> - <small>пространство, где вы можете посмотреть любимое кино
+                        не отвлекаясь на хруст попкорна и разговоры посторонних людей. Здесь,
+                        в зале с удобными диванами, вы насладитесь атмосферой уюта и уединенности!</small>
+                </h3>
+            </div>
+
+            <div class="col-sm">
+                <img src="{% static 'images/photo_2023-05-15_12-.webp' %}" alt="">
+            </div>
+            <div class="col-sm-5 img2">
+                <img src="{% static 'images/IMG_3264_.webp' %}" alt="">
+            </div>
+            <div class="col-sm-5 img3">
+                <img src="{% static 'images/photo_2023-11-08_15-.webp' %}" alt="">
+            </div>
+            <div class="col-sm img4">
+                <img src="{% static 'images/photo_2023-05-20_23-.webp' %}" alt="">
+            </div>
+        </div>
+    </div>
+<div class="text-center rooms" id="rooms">
+    <h1 class="text-warning">Наши залы </h1>
+    <h5 class="text-light">Кинозалы вмещают в себя от 2 до 6 человек.
+        Для бронирования нужного зала просто сообщите цифру или название зала нашему менеджеру!
+    </h5><br>
+
+</div>
+
+<div class="row mobile">
+            <div class="col-sm bg-dark" style="margin-bottom:2em;">
+                <div class="row">
+                    <div class="col-sm">
+                        <img src="{% static 'images/rooms/photo_2023-09-24_18-.webp' %}" class="card-img-top roomImg" alt="...">
+                    </div>
+                    <div class="col-sm">
+                        <h1 class="text-warning textImg">Зал №1</h1>
+                        <h6 class="text-light textImg">стоимость 11500 тенге/2 часа</h6>
+                        <small class="text-light textImg">
+                            Зал рассчитан на 2-4 гостя
+                        </small><br><br>
+                        <a href="https://t.me/KR_supportKZ" target="_blank" class="btn btn-warning">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+
+                <div class="col-sm bg-dark" style="margin-bottom:2em;">
+                <div class="row">
+                    <div class="col-sm">
+                        <img src="{% static 'images/rooms/2.jpg' %}" class="card-img-top roomImg" alt="...">
+                    </div>
+                    <div class="col-sm">
+                        <h1 class="text-warning textImg">Зал №2</h1>
+                        <h6 class="text-light textImg">стоимость 14000 тенге/2 часа</h6>
+                        <small class="text-light textImg">
+                            Зал рассчитан на 2-4 гостя
+                        </small><br><br>
+                        <a href="https://t.me/KR_supportKZ" target="_blank" class="btn btn-warning">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+
+                    <div class="col-sm bg-dark" style="margin-bottom:2em;">
+                <div class="row">
+                    <div class="col-sm">
+                        <img src="{% static 'images/rooms/photo_2023-08-12_01-.jpg' %}" class="card-img-top roomImg" alt="...">
+                    </div>
+                    <div class="col-sm">
+                        <h1 class="text-warning textImg">Зал №3</h1>
+                        <h6 class="text-light textImg">стоимость 13200 тенге/2 часа</h6>
+                        <small class="text-light textImg">
+                            Зал рассчитан на 2-3 гостя.
+                        </small><br><br>
+                        <a href="https://t.me/KR_supportKZ" target="_blank" class="btn btn-warning">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+
+
+                    <div class="col-sm bg-dark" style="margin-bottom:2em;">
+                <div class="row">
+                    <div class="col-sm">
+                        <img src="{% static 'images/rooms/photo_2023-08-12_00-.jpg' %}" class="card-img-top roomImg" alt="...">
+                    </div>
+                    <div class="col-sm">
+                        <h1 class="text-warning textImg">Зал №4</h1>
+                        <h6 class="text-light textImg">стоимость 16500 тенге/2 часа</h6>
+                        <small class="text-light textImg">
+                            Зал рассчитан на 2-5 гостя.
+                        </small><br><br>
+                        <a href="https://t.me/KR_supportKZ" target="_blank" class="btn btn-warning">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+
+
+                    <div class="col-sm bg-dark" style="margin-bottom:2em;">
+                <div class="row">
+                    <div class="col-sm">
+                        <img src="{% static 'images/photo_2023-08-12_00-.jpg' %}" class="card-img-top roomImg" alt="...">
+                    </div>
+                    <div class="col-sm">
+                        <h1 class="text-warning textImg">Зал №5</h1>
+                        <h6 class="text-light textImg">стоимость 15000 тенге/2 часа</h6>
+                        <small class="text-light textImg">
+                            Зал рассчитан на 2 гостя
+                        </small><br><br>
+                        <a href="https://t.me/KR_supportKZ" target="_blank" class="btn btn-warning">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+
+                       <div class="col-sm bg-dark" style="margin-bottom:2em;">
+                <div class="row">
+                    <div class="col-sm">
+                        <img src="{% static 'images/rooms/photo_2023-05-26_01-.jpg' %}" class="card-img-top roomImg" alt="...">
+                    </div>
+                    <div class="col-sm">
+                        <h1 class="text-warning textImg">Зал №6</h1>
+                        <h6 class="text-light textImg">стоимость 18500 тенге/2 часа</h6>
+                        <small class="text-light textImg">
+                            Зал рассчитан на 2-6 гостей
+                        </small><br><br>
+                        <a href="https://t.me/KR_supportKZ" target="_blank" class="btn btn-warning">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+</div>
+
+
+<div class="bg-dark info text-center">
+<p class="text-light">Мы рекомендуем прочитать эту информацию <br>:3</p>
+<h1 class="text-warning">Уважаемые гости!</h1>
+    <small class="text-light">
+        Возврат или перенос предоплаты на депозит, по желанию гостя, осуществляется при уведомлении
+        об отказе от бронирования не менее чем за 3 часа до начала записи.
+        В противном случае, денежные средства не возвращаются и не переносятся на депозит.
+    </small><br><br>
+    <small class="text-light">
+        В выходные, будние дни(на большое количество часов)
+        и праздничные дни вынуждены брать предоплату
+        для вашего же комфорта и подтверждения бронирования
+    </small><br><br>
+    <small class="text-light">
+        На крепкий алкоголь действует пробковый сбор в размере 1000 тенге за бутылку.
+        (К крепкому алкоголю не относятся: вина, шампанское, пивные напитки.)
+    </small>
+</div>
+<br>
+
+<div class="bg-dark info text-center">
+    <small class="text-light">
+        Наши адреса : г. Алматы улица Каирбекова 79 <br>
+        по всем вопросам : <a href="http://t.me/KR_supportKZ" target="_blank">Тех поддержка</a>
+
+    </small>
+
+</div>
+
+</body>
+
+</html>
